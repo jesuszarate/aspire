@@ -1333,6 +1333,12 @@ public partial class FoundryModel
         public static readonly FoundryModel AzureLanguageConversationalPiiRedaction = new() { Name = "Azure-Language-Conversational-PII-redaction", Version = "1", Format = "Microsoft" };
 
         /// <summary>
+        /// PII Redaction for Documents automatically detects and masks sensitive information such as names, addresses, phone numbers, credit card details, and other personally identifiable information (PII) in native documents including PDF, Word, and text files.
+        /// </summary>
+        [AspireValue("FoundryModels")]
+        public static readonly FoundryModel AzureLanguageDocumentPiiRedaction = new() { Name = "Azure-Language-Document-PII-redaction", Version = "1", Format = "Microsoft" };
+
+        /// <summary>
         /// Language detection quickly and accurately identifies the language of any text, supporting over 100 languages and dialects, including the ISO 15924 standard for a select number of languages.
         /// </summary>
         [AspireValue("FoundryModels")]
